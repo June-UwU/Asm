@@ -1,21 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char* Reserve(const int& num)
-{
-	switch(*num)
-	{
-		case :
-		{
-			printf("it does\n");
-		}
-	}
-}
 
 int main(int argc, char const *argv[])
 {
 	int num;
 	scanf("%d",&num);
-	Reserve(num);
+	//currently only support 16 bit values
+	char *array = (char *) malloc(sizeof(char) * 16);
+	
 	return 0;
 }
