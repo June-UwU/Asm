@@ -17,7 +17,7 @@ INCLUDE Irvine32.inc
 
 .code
 main PROC
-	mov ecx,expr 			;can i do this does it work like a normal macro..?
+	mov ecx,expr 			;can i do this does it work like a normal macro..?(both works as expected)
 	mov ebx,expression		;would it  evaluate the expression both times
 	call DumpRegs  			;not including the byte pointer call since I still don't know how it works
 	exit
